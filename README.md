@@ -24,7 +24,6 @@ This project consists of a backend API built with FastAPI, which interacts with 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Swathihanumanthappa123/Full-Stack-Project.git
-   cd repository
 
 
 2. **Install Python dependencies for the backend:**
@@ -43,7 +42,7 @@ This project consists of a backend API built with FastAPI, which interacts with 
 ### Backend (FastAPI)
 
 1. **Set up environment variables:**
-    - Create a `.env` file in the `backend` directory.
+    - Create a `.env` file in the directory.
     - Add the following environment variables:
       ```plaintext
       DATABASE_URL=postgresql://username:password@localhost:5432/database_name
