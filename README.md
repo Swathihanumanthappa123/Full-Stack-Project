@@ -1,4 +1,4 @@
-# Full Stack Project
+**# Full Stack Project
 
 This project demonstrates a full-stack web application using PostgreSQL, FastAPI (backend), and React (frontend).
 
@@ -43,10 +43,7 @@ This project consists of a backend API built with FastAPI, which interacts with 
 
 1. **Set up environment variables:**
     - Create a `.env` file in the directory.
-    - Add the following environment variables:
-      ```plaintext
-      DATABASE_URL=postgresql://username:password@localhost:5432/database_name
-      ```
+    - Edit your .env file parameters according to your Postgres configuration.
 
 2. **Run the FastAPI server:**
    ```bash
@@ -89,10 +86,3 @@ This project consists of a backend API built with FastAPI, which interacts with 
 ## Contributing
 
 Contributions are welcome! Feel free to submit issues and pull requests.
-
-## Deployed Webpage
-
-- The deployed webpage is accessible at [Your Deployed Webpage URL](https://example.com).
-```
-
-Replace placeholders like `username`, `password`, `database_name`, and URLs with actual values relevant to your project. Ensure that you have appropriate sections for setup, running locally, deployment, contributing, license, and a link to the deployed webpage.
