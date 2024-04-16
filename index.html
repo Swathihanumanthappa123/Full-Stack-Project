@@ -3,25 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Top Authors</title>
 </head>
 <body>
-<h1>Top Authors</h1>
-<div>
-  {% if top_authors %}
-  <h2>Top 10 Performing Authors:</h2>
-  <ul>
-    {% for author in top_authors %}
-    <li>{{ author.author_name }} - Total Revenue: ${{ author.total_revenue }}</li>
-    {% endfor %}
-  </ul>
-  {% else %}
-  <p>No top authors found.</p>
-  {% endif %}
-
-  {% if error_message %}
-  <p>{{ error_message }}</p>
-  {% endif %}
-</div>
+  <script src="my-react-app/src/App.js"></script>
 </body>
 </html>
