@@ -51,7 +51,10 @@ This project consists of a backend API built with FastAPI, which interacts with 
    ```
 
 3. **Access the backend API:**
-   Open `http://localhost:8000` in your web browser.
+   Open `http://localhost:8000/top-authors` in your web browser.
+
+   To check the individual sales total of top authors:
+   Example: `http://127.0.0.1:8000/top-authors?author_name=Rory%20Gilmore`
 
 ### Frontend (React)
 
