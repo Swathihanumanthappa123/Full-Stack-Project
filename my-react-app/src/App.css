@@ -1,0 +1,83 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.author-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/*.author-card {
+  width: 30%;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}*/
+
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.logo{
+    width: 48px;
+    height: 48px;
+    padding: 1.33px 0px 1.09px 0px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.navigation{
+   width: Fill (1,033px)px;
+   height: Hug (48px)px;
+   gap: 0px;
+   opacity: 0px;
+}
+
+.menu{
+    padding-right: 30%;
+}
+nav{
+   display:flex;
+   align-items:center;
+   justify-content: space-between;
+   padding-top: 40px;
+   padding-left: 10%;
+   padding-right:10%;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+button{
+    border:none;
+    background: linear-gradient(to right, #0083B0 , #00b4db);
+    box-shadow: 0px 0.61px 0.61px 0px rgba(0, 0, 0, 0.25);
+    padding: 12px 30px;
+    border-radius: 10px;
+    color: white;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 5%;
+    padding-top: 10%;
+}
