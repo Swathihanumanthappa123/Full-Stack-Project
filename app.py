@@ -10,10 +10,10 @@ from fastapi.middleware.cors import CORSMiddleware
 
 load_dotenv()
 
-PORT = os.getenv("PORT")
+PORT = int(os.getenv("PORT"))
 HOST = os.getenv("HOST")
 PASSWORD = os.getenv("PASSWORD")
-USER = os.getenv("USER")
+USER = os.getenv("USERNAME")
 DBNAME = os.getenv("DBNAME")
 
 # Initialize FastAPI app
