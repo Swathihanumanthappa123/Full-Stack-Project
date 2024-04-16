@@ -23,7 +23,7 @@ This project consists of a backend API built with FastAPI, which interacts with 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your/repository.git
+   git clone https://github.com/Swathihanumanthappa123/Full-Stack-Project.git
    cd repository
 
 
