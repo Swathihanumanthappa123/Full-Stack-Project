@@ -16,7 +16,8 @@ This project consists of a backend API built with FastAPI, which interacts with 
 
 - Python (v3.7 or higher)
 - PostgreSQL database
-- Node.js (v14.x or higher) for React frontend development
+- FastAPI backend endpoint
+- React frontend development
 
 ## Setup
 
@@ -95,6 +96,4 @@ Contributions are welcome! Feel free to submit issues and pull requests.
 - The deployed webpage is accessible at [Your Deployed Webpage URL](https://example.com).
 ```
 
-Replace placeholders like `your/repository.git`, `username`, `password`, `database_name`, and URLs with actual values relevant to your project. Ensure that you have appropriate sections for setup, running locally, deployment, contributing, license, and a link to the deployed webpage.
-
-Copy this markdown template into your project's README.md file and customize it according to your project's structure and requirements. This README template provides a structured format with detailed instructions for developers to set up, run locally, and deploy your full-stack web application using FastAPI (Python) and React. Adjust and expand it as needed to suit the specifics of your project.
+Replace placeholders like `username`, `password`, `database_name`, and URLs with actual values relevant to your project. Ensure that you have appropriate sections for setup, running locally, deployment, contributing, license, and a link to the deployed webpage.
