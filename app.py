@@ -1,3 +1,5 @@
+import os
+from dotenv import load_dotenv, dotenv_values
 from fastapi import FastAPI, HTTPException, Query
 from dao import DAO
 from pydantic import BaseModel
@@ -5,6 +7,14 @@ from typing import Optional, List, Tuple
 from flask import Flask, render_template
 import uvicorn
 from fastapi.middleware.cors import CORSMiddleware
+
+load_dotenv()
+
+PORT = os.getenv("PORT")
+HOST = os.getenv("HOST")
+PASSWORD = os.getenv("PASSWORD")
+USER = os.getenv("USER")
+DBNAME = os.getenv("DBNAME")
 
 # Initialize FastAPI app
 app = FastAPI()
@@ -18,7 +28,7 @@ app.add_middleware(
 
 # Initialize DAO with database connection details
 # Replace with your actual database connection details
-dao = DAO('postgres', 'postgres', 'Swathi0616', '127.0.0.1', 5432)
+dao = DAO(DBNAME, USER, PASSWORD, HOST, PORT)
 
 # Pydantic models for request and response
 class TopAuthorsResponse(BaseModel):

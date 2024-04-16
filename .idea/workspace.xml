@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8323339e-3aa1-4265-8a9a-ced673b6c5d7" name="Changes" comment="">
+    <list default="true" id="8323339e-3aa1-4265-8a9a-ced673b6c5d7" name="Changes" comment="react frontend impl">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -36,6 +38,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/swathihanumanthappa/IdeaProjects/Full_Stack_Project/my-react-app/public/images",
     "project.structure.last.edited": "Project",
@@ -49,6 +52,7 @@
       <recent name="$PROJECT_DIR$/my-react-app/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/my-react-app/public/images" />
       <recent name="$PROJECT_DIR$/my-react-app/public" />
     </key>
@@ -63,5 +67,9 @@
       <updated>1713143028815</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="react frontend impl" />
+    <option name="LAST_COMMIT_MESSAGE" value="react frontend impl" />
   </component>
 </project>
